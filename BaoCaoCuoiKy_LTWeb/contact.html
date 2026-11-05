@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ - Nhịp Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <div class="page-title">
+      <p class="eyebrow dark">Let's talk</p>
+      <h1>Liên hệ</h1>
+      <p>Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn.</p>
+    </div>
+    <section class="section contact-grid">
+      <div class="box contact-info">
+        <p class="eyebrow dark">Nhịp support</p>
+        <h3>Ghé lại bất cứ khi nào bạn cần.</h3>
+        <p class="contact-intro">Từ câu hỏi về sản phẩm đến đơn hàng, đội ngũ Nhịp sẽ phản hồi sớm nhất có thể.</p>
+        <div class="contact-list">
+          <div><span>Email</span><a href="mailto:hotro@nhipstore.vn">hotro@nhipstore.vn</a></div>
+          <div><span>Hotline</span><a href="tel:0900000000">0900 000 000</a></div>
+          <div><span>Thời gian</span><p>8:00 - 21:00 mỗi ngày</p></div>
+        </div>
+      </div>
+      <form class="box form contact-form" id="contactForm">
+        <h3>Gửi tin nhắn</h3>
+        <p class="form-caption">Bạn có câu hỏi? Hãy để lại thông tin, chúng tôi sẽ liên hệ lại.</p>
+        <label>Họ tên<input name="name" autocomplete="name" placeholder="Tên của bạn" required /></label>
+        <label>Email<input name="email" type="email" autocomplete="email" placeholder="email@example.com" required /></label>
+        <label>Nội dung<textarea name="message" rows="4" placeholder="Bạn cần Nhịp hỗ trợ điều gì?" required></textarea></label>
+        <button class="btn contact-submit" type="submit">Gửi tin nhắn</button>
+        <p id="contactMsg" role="status"></p>
+      </form>
+    </section>
+    <div id="site-footer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
